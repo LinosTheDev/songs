@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SongGuess 🎵</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://www.gstatic.com/firebasejs/11.0.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/11.0.1/firebase-database.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>🎵 SongGuess</h1>
+
+    <div id="setup" class="card">
+      <input id="username" placeholder="Your name" />
+      <div class="buttons">
+        <button id="createBtn">Create Room</button>
+        <button id="joinBtn">Join Room</button>
+      </div>
+      <input id="roomCodeInput" placeholder="Enter room code" />
+    </div>
+
+    <div id="game" class="hidden card">
+      <h2 id="roomHeader"></h2>
+      <p id="phase">Waiting for host...</p>
+      <div id="songArea"></div>
+      <div class="buttons">
+        <button id="pickSongBtn">Pick Random Song</button>
+        <button id="playBtn">▶️ Play Preview</button>
+      </div>
+      <div id="players"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
