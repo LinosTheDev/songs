@@ -149,7 +149,7 @@ async function getSpotifyToken() {
       "Content-Type": "application/x-www-form-urlencoded",
       Authorization:
         "Basic " +
-        btoa("YOUR_CLIENT_ID" + ":" + "YOUR_CLIENT_SECRET")
+        btoa("7d0f91be1cd641abb81e73d244059441" + ":" + "1e89e83a9e2b4c5991bda5e81d98ddcb")
     },
     body: "grant_type=client_credentials"
   });
