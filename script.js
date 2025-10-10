@@ -1,13 +1,14 @@
 // === CONFIGURE FIREBASE ===
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_PROJECT.firebaseapp.com",
-  databaseURL: "https://YOUR_PROJECT.firebaseio.com",
-  projectId: "YOUR_PROJECT",
-  storageBucket: "YOUR_PROJECT.appspot.com",
-  messagingSenderId: "YOUR_SENDER_ID",
-  appId: "YOUR_APP_ID"
-};
+    apiKey: "AIzaSyD1lL-CxLSZi57XhdyHUzXoBOiqeOjKGmI",
+    authDomain: "linossongguess.firebaseapp.com",
+    databaseURL: "https://linossongguess-default-rtdb.firebaseio.com",
+    projectId: "linossongguess",
+    storageBucket: "linossongguess.firebasestorage.app",
+    messagingSenderId: "372314781087",
+    appId: "1:372314781087:web:2fc03cb1d8a23bf86539aa",
+    measurementId: "G-Z0H125Z2S8"
+  };
 
 firebase.initializeApp(firebaseConfig);
 const db = firebase.database();
