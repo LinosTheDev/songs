@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(135deg, #111827, #1f2937);
+  color: #f3f4f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 90%;
+  max-width: 500px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.card {
+  background: #1e293b;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.4);
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+input {
+  width: 100%;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 0.5rem;
+  margin-bottom: 0.75rem;
+  background: #334155;
+  color: white;
+  font-size: 1rem;
+}
+
+input::placeholder {
+  color: #94a3b8;
+}
+
+button {
+  background: #3b82f6;
+  border: none;
+  border-radius: 0.5rem;
+  color: white;
+  padding: 0.75rem 1.2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  margin: 0.3rem;
+  transition: background 0.2s ease;
+}
+
+button:hover {
+  background: #2563eb;
+}
+
+#songArea {
+  margin-top: 1rem;
+}
+
+#players {
+  margin-top: 1rem;
+  text-align: left;
+}
+
+#roomHeader {
+  margin-bottom: 0.5rem;
+}
